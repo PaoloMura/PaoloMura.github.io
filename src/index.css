@@ -11,3 +11,149 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--panel-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.social {
+  margin: 0 50%
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  /* background-color: black; */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.social:hover .tooltiptext {
+  visibility: visible;
+}
+
+.about {
+  margin: 7vh 20vw;
+  padding: 0 10px;
+  border: var(--border-color);
+  border-width: 3px;
+  border-style: solid;
+  width: 50vw;
+}
+
+@media only screen and (max-width: 1300px) {
+  .about-mobile {
+    margin: 7vh auto;
+    padding: 0 10px;
+    border: var(--border-color);
+    border-width: 3px;
+    border-style: solid;
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-mobile {
+    margin: 10px;
+    padding: 10px;
+    border: var(--border-color);
+    border-width: 10px;
+    border-style: solid;
+    width: fit-content;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.photo {
+  height: 56vh;
+}
+
+.cell {
+  width: 50%;
+}
+
+:root {
+  --panel-color: #f5f5f5;
+  --border-color: #f0f0f0;
+  --quote-color: #968a8a;
+}
+
+.project {
+  margin: 5px;
+  padding: 5px;
+  border: var(--border-color);
+  border-width: 3px;
+  border-style: solid;
+  min-width: 30vw;
+}
+
+.project:hover {
+  background-color: var(--border-color);
+}
+
+@media only screen and (max-width: 1300px) {
+  .project {
+    min-width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    min-width: 80vw;
+    margin: 10px 0;
+  }
+}
+
+.padding {
+  height: 60px;
+}
+
+.cv-container {
+  min-height: 80vh;
+}
+
+.project-page {
+  width: 70vw;
+  margin: auto;
+}
+
+h1.project-title {
+  text-align: center;
+}
+
+h3.project-year {
+  text-align: center;
+  font-style: italic;
+}
+
+h6.quote-author {
+  font-style: italic;
+}
+
+div.quote {
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: var(--quote-color);
+  margin: 5px;
+  padding: 5px;
+}
