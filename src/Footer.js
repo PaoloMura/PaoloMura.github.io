@@ -4,15 +4,24 @@ import Col from 'react-bootstrap/Col';
 import ArticleIcon from '@mui/icons-material/Article';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Link } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function Social(props) {
-    return (
+    if (props.target !== '_blank') {
+      return (
+        <div className='social'>
+          {/* <div className='tooltiptext'>{props.text}</div> */}
+          <Link to={props.link} target={props.target}>
+            {props.icon}
+          </Link>
+        </div>
+      );
+    } else return (
       <div className='social'>
         {/* <div className='tooltiptext'>{props.text}</div> */}
-        <Link href={props.link} target={props.target}>
+        <a href={props.link} target={props.target}>
           {props.icon}
-        </Link>
+        </a>
       </div>
     );
 }

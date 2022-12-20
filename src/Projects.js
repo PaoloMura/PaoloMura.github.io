@@ -1,4 +1,5 @@
-import { Badge, Col, Container, Image, Nav, Row, Stack } from "react-bootstrap";
+import { Badge, Col, Container, Image, Row, Stack } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import projects from './projects.json'
 
 function getTagType(tag) {
@@ -17,7 +18,7 @@ function getTagType(tag) {
 function Project(props) {
     return (
         <Col className='project'>
-            <Nav.Link href={props.page}>
+            <Link to={props.page} className='nav-link'>
                 <Stack gap={3}>
                     <h1>{props.title}</h1>
                     <h6>
@@ -34,7 +35,7 @@ function Project(props) {
                     </h6>
                     <Image fluid src={props.image}/>
                 </Stack>
-            </Nav.Link>
+            </Link>
         </Col>
     )
 }
