@@ -33,7 +33,7 @@ function MultiplayerGame() {
                 At its core, it has an array where each item represents a frame of the game.
                 As players move through time, they store their state at the frame they're at.
                 Unlike regular games, players can time-travel.
-                All this means is that they can don't have to store their state at sequential frames in the array;
+                All this means is that they don't have to store their state at sequential frames in the array;
                 they can jump ahead to future frames or revisit earlier frames.
             </p>
             <Image fluid src='/images/multiplayer-game/Ghosts.jpeg' />
