@@ -1,3 +1,10 @@
+# Instructions
+
+1. Make changes to the `main` branch.
+2. Build a static version of the site.
+3. Copy the contents of the `build` folder to the `gh-pages` branch and push.
+4. GitHub Actions then publishes the site.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
