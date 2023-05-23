@@ -4,8 +4,8 @@
             "title": "Cloud Render Farm",
             "year": 2022,
             "date": "November 2022",
-            "image": "/RenderFarm.jpeg",
-            "page": "/render-farm",
+            "image": "/cards/cloud.jpeg",
+            "page": "RenderFarm",
             "tags": [
                 {
                     "tag": "Python",
@@ -67,8 +67,8 @@
             "title": "Trading Algorithm Analysis",
             "year": 2022,
             "date":"November 2022",
-            "image": "/TradingAlgorithm.jpeg",
-            "page": "/trading-algorithms",
+            "image": "/cards/trading-algorithms.jpeg",
+            "page": "TradingAlgorithms",
             "tags": [
                 {
                     "tag": "Python",
@@ -102,8 +102,8 @@
             "title": "Educational Python Resources",
             "year": 2022,
             "date": "July 2022 - Present",
-            "image": "/KS3.jpeg",
-            "page": "/educational-resources",
+            "image": "/cards/code-makers.jpeg",
+            "page": "EducationalResources",
             "tags": [
                 {
                     "tag": "Python",
@@ -129,8 +129,8 @@
             "title": "3D Multiplayer Web Game",
             "year": 2022,
             "date": "January - May 2022",
-            "image": "/TimeMine.jpeg",
-            "page": "/multiplayer-game",
+            "image": "/cards/time-mine.jpeg",
+            "page": "MultiplayerGame",
             "tags": [
                 {
                     "tag": "C#",
@@ -168,8 +168,8 @@
             "title": "No Entry Sign Detector",
             "year": 2021,
             "date": "November 2021",
-            "image": "/SignDetector.jpeg",
-            "page": "/sign-detector",
+            "image": "/cards/sign-detector.jpeg",
+            "page": "SignDetector",
             "tags": [
                 {
                     "tag": "C++",
@@ -203,8 +203,8 @@
             "title": "Rendering Engine",
             "year": 2021,
             "date": "November 2021",
-            "image": "/RenderingEngine.jpeg",
-            "page": "/rendering-engine",
+            "image": "/cards/graphics.jpeg",
+            "page": "RenderingEngine",
             "tags": [
                 {
                     "tag": "C++",
@@ -234,8 +234,8 @@
             "title": "AR Android App",
             "year": 2021,
             "date": "October 2020 - May 2021",
-            "image": "/VoronoiAR.jpeg",
-            "page": "/ar-app",
+            "image": "/cards/voronoi.jpeg",
+            "page": "VoronoiAR",
             "tags": [
                 {
                     "tag": "Java",
@@ -281,8 +281,8 @@
             "title": "Parallelised Simulation",
             "year": 2020,
             "date": "November 2020",
-            "image": "/GoL.jpeg",
-            "page": "/parallelised-simulation",
+            "image": "/cards/game-of-life.jpeg",
+            "page": "ParallelisedSimulation",
             "tags": [
                 {
                     "tag": "GoLang",
@@ -328,8 +328,8 @@
             "title": "Booking System",
             "year": 2019,
             "date": "September 2018 - June 2019",
-            "image": "/BookingSystem.jpeg",
-            "page": "/booking-system",
+            "image": "/cards/swim-booking.jpeg",
+            "page": "BookingSystem",
             "tags": [
                 {
                     "tag": "Python",
@@ -363,8 +363,8 @@
             "title": "Stop Motion Animation",
             "year": 2019,
             "date": "2014 - Present",
-            "image": "/Dragonslayer.jpeg",
-            "page": "/animation",
+            "image": "/cards/animation.jpeg",
+            "page": "Animation",
             "tags": [
                 {
                     "tag": "Dragonframe",

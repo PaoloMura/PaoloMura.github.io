@@ -1,5 +1,5 @@
 import { Image } from 'react-bootstrap';
-import projects from '../projects.json';
+import projects from '../data/projects.json';
 
 function Quote(props) {
     return (

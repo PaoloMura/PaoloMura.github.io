@@ -1,3 +1,9 @@
+:root {
+  --panel-color: #f5f5f5;
+  --border-color: #f0f0f0;
+  --quote-color: #968a8a;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,6 +16,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-content {
+  margin-bottom: 10vh;
 }
 
 .footer {
@@ -49,17 +59,17 @@ code {
 }
 
 .about {
-  margin: 7vh 20vw;
+  margin: 15px auto;
   padding: 0 10px;
   border: var(--border-color);
   border-width: 3px;
   border-style: solid;
-  width: 50vw;
+  width: 60vw;
 }
 
 @media only screen and (max-width: 1300px) {
   .about-mobile {
-    margin: 7vh auto;
+    margin: 15px auto;
     padding: 0 10px;
     border: var(--border-color);
     border-width: 3px;
@@ -81,6 +91,9 @@ code {
 
 .title {
   text-align: center;
+  background-color: var(--panel-color);
+  margin: 0;
+  padding: 10px;
 }
 
 .photo {
@@ -91,19 +104,13 @@ code {
   width: 50%;
 }
 
-:root {
-  --panel-color: #f5f5f5;
-  --border-color: #f0f0f0;
-  --quote-color: #968a8a;
+.projects {
+  margin: 15px;
 }
 
 .project {
-  margin: 5px;
-  padding: 5px;
-  border: var(--border-color);
-  border-width: 3px;
-  border-style: solid;
-  min-width: 30vw;
+  margin: 15px;
+  min-width: 25vw;
 }
 
 .project:hover {
