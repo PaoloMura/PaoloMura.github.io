@@ -1,6 +1,57 @@
 {
     "projects": [
         {
+            "title": "My Dissertation",
+            "year": 2023,
+            "date": "January - May 2023",
+            "image": "/cards/graph-quest.jpeg",
+            "page": "GraphQuest",
+            "tags": [
+                {
+                    "tag": "JavaScript",
+                    "type": "Language"
+                },
+                {
+                    "tag": "Python",
+                    "type": "Language"
+                },
+                {
+                    "tag": "React.js",
+                    "type": "Technology"
+                },
+                {
+                    "tag": "Flask",
+                    "type": "Technology"
+                },
+                {
+                    "tag": "Education",
+                    "type": "Topic"
+                },
+                {
+                    "tag": "Graph Theory",
+                    "type": "Topic"
+                }
+            ],
+            "links": [
+                {
+                    "link": "https://github.com/PaoloMura/graph-quest-app",
+                    "text": "Website GitHub repository"
+                },
+                {
+                    "link": "https://github.com/PaoloMura/graphquest",
+                    "text": "Python package GitHub repository"
+                },
+                {
+                    "link": "https://graphquest.readthedocs.io/en/latest/",
+                    "text": "Python package documentation"
+                },
+                {
+                    "link": "https://github.com/PaoloMura/graph-quest-app/blob/main/Paolo-Thesis.pdf",
+                    "text": "My thesis PDF"
+                }
+            ]
+        },
+        {
             "title": "Cloud Render Farm",
             "year": 2022,
             "date": "November 2022",
