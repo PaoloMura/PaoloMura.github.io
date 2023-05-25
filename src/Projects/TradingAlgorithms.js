@@ -24,7 +24,7 @@ function TradingAlgorithms() {
                 <Link href='https://github.com/davecliff/BristolStockExchange' target='_blank'> Bristol Stock Exchange</Link>
                 , and then performed statistical analysis on these results.
                 These tests were largely inconclusive due to noise and limited compute time for running the simulations.
-                However, some results showed that small values of k were best, while F values centred around 0.1 gave highest profitability.
+                However, some results showed that small values of k were best, while F values centred around 1.0 gave highest profitability.
                 In the following charts, PPS means 'Profit Per Second':
             </p>
             <Image fluid src='/images/trading-algorithms/PRDE_k.jpeg' />

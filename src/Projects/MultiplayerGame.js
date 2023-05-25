@@ -9,7 +9,7 @@ function MultiplayerGame() {
                 The only restrictions were that it had to be a web game and include a novel aspect.
             </p>
             <p>
-                Having spent the year rewatching Doctor Who, I proposed that we make a multiplayer time-travel game to fulfill the 'novel' requirement.
+                Having spent the year re-watching Doctor Who, I proposed that we make a multiplayer time-travel game to fulfill the 'novel' requirement.
                 The finished game is unlike anything we've seen before: it's a multiplayer 3D web game where at any point, players are free to time-travel within elapsed time.
                 Each player can time-travel whenever they like, irrespective and independently of other players.
             </p>
@@ -45,7 +45,7 @@ function MultiplayerGame() {
             </p>
             <Image fluid src='/images/multiplayer-game/RealityManager.jpeg' />
             <p>
-                We keep track of all player's currently perceived frame.
+                We keep track of all players' currently perceived frame.
                 So, if two players' perceived frames are the same, we can let them see and interact with each other (they're playing in the same time).
                 Otherwise, we set them invisible to each other so that they can't interact.
             </p>
