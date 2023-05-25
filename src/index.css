@@ -108,14 +108,17 @@ code {
   margin: 15px;
 }
 
-.project {
-  margin: 15px;
-  min-width: 25vw;
+.project-button {
+  height: 100%;
 }
 
-.project:hover {
-  background-color: var(--border-color);
+.project {
+  padding: 12px 0;
 }
+
+/*.project:hover {*/
+/*  background-color: var(--border-color);*/
+/*}*/
 
 @media only screen and (max-width: 1300px) {
   .project {

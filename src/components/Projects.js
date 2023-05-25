@@ -24,23 +24,25 @@ function Project({ page, title, tags, image, onSelected }) {
     }
 
     return (
-        <Col className='project'>
-            <Button variant='light' onClick={handleClick}>
+        <Col sm={12} md={6} lg={4} className="project">
+            <Button variant='light' onClick={handleClick} className="project-button">
                 <Card>
                     <Card.Header>
                         {title}
                     </Card.Header>
                     <Card.Body>
-                        {tags.map(
-                          (tag, idx) => (
-                            <div key={idx}>
-                                <Badge pill bg={getTagType(tag)}>
-                                    {tag.tag}
-                                </Badge>
-                                {' '}
-                            </div>
-                          )
-                        )}
+                        <Row>
+                            {tags.map(
+                              (tag, idx) => (
+                                <Col key={idx}>
+                                    <Badge pill bg={getTagType(tag)}>
+                                        {tag.tag}
+                                    </Badge>
+                                    {' '}
+                                </Col>
+                              )
+                            )}
+                        </Row>
                     </Card.Body>
                     <Card.Img src={image}/>
                 </Card>
