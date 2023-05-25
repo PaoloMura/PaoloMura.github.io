@@ -1,17 +1,17 @@
 import { Image } from 'react-bootstrap';
 import projects from '../data/projects.json';
 
-function Quote(props) {
+function Quote({ quote, author, year }) {
     return (
         <div className='quote'>
-            <h5>"{props.quote}"</h5>
-            <h6 className='quote-author'>- {props.author} (YouTube comment, {props.year})</h6>
+            <h5>"{quote}"</h5>
+            <h6 className='quote-author'>- {author} (YouTube comment, {year})</h6>
         </div>
     )
 }
 
 function Animation() {
-    var quotes = projects.projects.find((x) => (x.page === '/animation')).quotes;
+    const quotes = projects.projects.find((x) => (x.page === 'Animation')).quotes;
     return (
         <>
             <p>

@@ -64,6 +64,7 @@ code {
   border: var(--border-color);
   border-width: 3px;
   border-style: solid;
+  border-radius: 20px;
   width: 60vw;
 }
 
@@ -165,7 +166,7 @@ h6.quote-author {
 }
 
 div.quote {
-  border-style: groove;
+  border-style: double;
   border-width: 5px;
   border-radius: 15px;
   border-color: var(--quote-color);

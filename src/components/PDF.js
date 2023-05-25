@@ -1,6 +1,5 @@
 
 function PDF({ link }) {
-    console.log(link)
     return (
         // <Document file="/Paolo-Mura-CV.pdf" imageResourcesPath='/public/images/'/>
         <div className='cv-container'>
