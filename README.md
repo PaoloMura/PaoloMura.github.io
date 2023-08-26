@@ -8,6 +8,15 @@ The website is a single page React.js app, hosted on the `main` branch.
 The `gh-pages` branch contains the build files for the GitHub Pages site.
 The `master` branch contains the build files for the Netlify site.
 
+# Adding content
+
+To add new content to the Projects page:
+
+* Add metadata to the `src/data/projects.json` file.
+* Add the main image to be displayed on the Projects page to the `public/cards/` directory.
+* Add the images to be displayed within the project page to the `public/images/<new-project>/` directory.
+* Create a new Project component in the `src/Projects/` directory.
+
 # Deployment
 
 1. Make changes to the `main` branch.

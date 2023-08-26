@@ -52,6 +52,49 @@
             ]
         },
         {
+            "title": "High Performance Computing simulation",
+            "year": 2023,
+            "date": "January - May 2023",
+            "image": "/cards/hpc.jpeg",
+            "page": "HPC",
+            "tags": [
+                {
+                    "tag": "C",
+                    "type": "Language"
+                },
+                {
+                    "tag": "OpenMP",
+                    "type": "Technology"
+                },
+                {
+                    "tag": "MPI",
+                    "type": "Technology"
+                },
+                {
+                    "tag": "HPC",
+                    "type": "Topic"
+                },
+                {
+                    "tag": "Supercomputer",
+                    "type": "Topic"
+                }
+            ],
+            "links": [
+                {
+                    "link": "https://github.com/PaoloMura/advanced-hpc-lbm",
+                    "text": "GitHub repository"
+                },
+                {
+                    "link": "https://github.com/PaoloMura/advanced-hpc-lbm/blob/bcp4-slurm/report-openmp.pdf",
+                    "text": "OpenMP report PDF"
+                },
+                {
+                    "link": "https://github.com/PaoloMura/advanced-hpc-lbm/blob/bcp4-slurm/report-mpi.pdf",
+                    "text": "MPI report PDF"
+                }
+            ]
+        },
+        {
             "title": "Cloud Render Farm",
             "year": 2022,
             "date": "November 2022",

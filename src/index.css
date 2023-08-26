@@ -178,3 +178,7 @@ p {
   text-align: justify;
   padding: 10px 0;
 }
+
+.image {
+  max-height: 90vh;
+}
