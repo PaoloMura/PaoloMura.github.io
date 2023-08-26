@@ -1,13 +1,20 @@
 # Portfolio
 
-Find the webpage at https://paolomura.github.io/ or an older, multi-page version at http://paolomura.co.uk.
+Find the webpage at https://paolomura.github.io/ or http://paolomura.netlify.app.
 
-# Instructions
+# Project structure
+
+The website is a single page React.js app, hosted on the `main` branch.
+The `gh-pages` branch contains the build files for the GitHub Pages site.
+The `master` branch contains the build files for the Netlify site.
+
+# Deployment
 
 1. Make changes to the `main` branch.
-2. Build a static version of the site.
-3. Copy the contents of the `build` folder to the `gh-pages` branch and push.
-4. GitHub Actions then publishes the site.
+2. Check that it runs locally using `npm start`.
+3. Build a static version of the site using `npm run build`.
+4. Copy the contents of the `build` folder to the `gh-pages` (and/or `master`) branch and push.
+5. GitHub Actions then publishes the site.
 
 # Getting Started with Create React App
 
@@ -79,12 +86,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
----
-
-## Notes
-
-To push changes to master:
-1. Delete the `node_modules/.cache/gh-pages/` folder
-2. Run `npm run deploy`
