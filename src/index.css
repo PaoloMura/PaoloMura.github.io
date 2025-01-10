@@ -164,6 +164,16 @@ code {
 .project-page {
   width: 70vw;
   margin: auto;
+  position: relative;
+  top: -48px;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-page {
+    position: static;
+    top: 0;
+  }
 }
 
 h1.project-title {
@@ -189,7 +199,6 @@ div.quote {
 }
 
 p {
-  text-align: justify;
   padding: 10px 0;
 }
 

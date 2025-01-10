@@ -50,7 +50,10 @@ export default function Projects() {
   if (selected !== null)
     return (
       <div className="projects">
-        <Button variant="secondary" size="lg" onClick={() => setSelected(null)}>
+        <Button
+          variant="outline-secondary"
+          onClick={() => setSelected(null)}
+        >
           Back to all projects
         </Button>
         <ProjectPage project={selected} />
