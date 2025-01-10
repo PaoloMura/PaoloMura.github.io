@@ -116,15 +116,29 @@ code {
 
 .project-button {
   height: 100%;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+
+.project-button:hover {
+  box-shadow: 0px 0px 10px 5px #d0d0d0;
+}
+
+.project-card {
+  height: 100% !important;
 }
 
 .project {
   padding: 12px 0;
 }
 
-/*.project:hover {*/
-/*  background-color: var(--border-color);*/
-/*}*/
+.tag-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
 
 @media only screen and (max-width: 1300px) {
   .project {
