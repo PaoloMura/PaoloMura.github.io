@@ -60,32 +60,12 @@ code {
 
 .about {
   margin: 15px auto;
-  padding: 10px;
-  border: var(--border-color);
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 20px;
   width: 60vw;
-}
-
-@media only screen and (max-width: 1300px) {
-  .about-mobile {
-    margin: 15px auto;
-    padding: 10px;
-    border: var(--border-color);
-    border-width: 3px;
-    border-style: solid;
-    width: 80vw;
-  }
 }
 
 @media only screen and (max-width: 600px) {
   .about-mobile {
     margin: 10px;
-    padding: 10px;
-    border: var(--border-color);
-    border-width: 10px;
-    border-style: solid;
     width: fit-content;
   }
 }
@@ -103,7 +83,9 @@ code {
 }
 
 .photo {
-  height: 56vh;
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
 }
 
 .cell {
@@ -196,10 +178,6 @@ div.quote {
   border-color: var(--quote-color);
   margin: 5px;
   padding: 5px;
-}
-
-p {
-  padding: 10px 0;
 }
 
 .image {
